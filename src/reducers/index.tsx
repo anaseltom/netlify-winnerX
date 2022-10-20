@@ -1,4 +1,4 @@
-import {combineReducers} from "redux";
+import { combineReducers } from "redux";
 
 import UserReducer from "./UserReducer";
 import Categories from "./Products";
@@ -11,14 +11,14 @@ import User_Order_List from "./UserOrderList";
 // import { Product_Cart_Total } from "../actions/UserAction";
 
 const rootReducer = combineReducers({
-    user: UserReducer,
-    categories: Categories,
-    products_list: Products_list,
-    deals: Deals,
-    cart: Product_cart,
-    wishlist: Product_wishlist,
-    cart_total: Product_Cart_total,
-    order_list: User_Order_List
+  user: UserReducer,
+  categories: Categories,
+  products_list: Products_list,
+  deals: Deals,
+  cart: Product_cart,
+  wishlist: Product_wishlist,
+  cart_total: Product_Cart_total,
+  order_list: User_Order_List,
 });
 
 export default rootReducer;
