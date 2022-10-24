@@ -2,7 +2,8 @@ import axios from "axios";
 
 // const baseURL = 'http://localhost:5000/api/v1/';
 // const baseURL = 'https://api.storein.net/api/v1/';
-const baseURL = "http://3.11.79.117:8000/api/v1/";
+const baseURL =
+  "http://ec2-3-11-79-117.eu-west-2.compute.amazonaws.com:8000/api/v1/";
 
 // alert(baseURL)
 const axiosInstance = axios.create({

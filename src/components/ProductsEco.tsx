@@ -157,6 +157,7 @@ const Products: React.FC<any> = ({
               .filter((product: any) => !product.is_recyclable)
               .slice(0, 10)
               .map((ar: any, ctr: number) => {
+                console.log("anas" + ar);
                 return (
                   <div
                     onClick={(e) => {
